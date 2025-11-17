@@ -4,8 +4,8 @@ import { Linkedin, Mail, Phone, Facebook, Instagram, Twitter } from "lucide-reac
 export const Footer = () => {
   return (
     <footer className="bg-secondary text-secondary-foreground">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 gradient-hero rounded-lg flex items-center justify-center shadow-glow">
@@ -13,7 +13,7 @@ export const Footer = () => {
               </div>
               <span className="text-xl font-bold">AgriFlock360</span>
             </div>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground leading-relaxed">
               Digitizing smallholder poultry farming through AI-powered IoT solutions.
             </p>
           </div>
@@ -93,9 +93,9 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
+        <div className="border-t border-border mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-muted-foreground space-y-2">
           <p>&copy; {new Date().getFullYear()} AgriFlock360. All rights reserved.</p>
-          <p className="mt-2">
+          <p>
             Developed by{" "}
             <a 
               href="https://mglobalbusinessconsultancy.netlify.app" 

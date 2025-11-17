@@ -51,11 +51,11 @@ const Feeding = () => {
                   Feeding Module
                 </span>
               </div>
-              <h1 className="text-5xl md:text-6xl font-bold">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">
                 Precision Feeding &{" "}
                 <span className="text-gradient-accent">Performance Analytics</span>
               </h1>
-              <p className="text-xl text-muted-foreground">
+              <p className="text-lg sm:text-xl text-muted-foreground">
                 Optimize daily feed allocation and measure feed-to-weight efficiency 
                 for smallholder farmers managing 300–1,000 birds.
               </p>

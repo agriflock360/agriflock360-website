@@ -58,11 +58,11 @@ const Brooder = () => {
                   IoT Module
                 </span>
               </div>
-              <h1 className="text-5xl md:text-6xl font-bold">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">
                 Solar Smart Brooder{" "}
                 <span className="text-gradient">IoT Integration</span>
               </h1>
-              <p className="text-xl text-muted-foreground">
+              <p className="text-lg sm:text-xl text-muted-foreground">
                 Digitize and automate brooding for 300–1,000 chicks through IoT sensors, 
                 AI alerts, and 100% solar-powered energy systems.
               </p>
