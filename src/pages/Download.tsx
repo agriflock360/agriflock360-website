@@ -1,9 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Apple, Smartphone } from "lucide-react";
+import { Smartphone } from "lucide-react";
 import googlePlayIcon from "@/assets/google-play.png";
 import qrAndroid from "@/assets/qr-android.png";
 import qrIos from "@/assets/qr-ios.png";
+import appleIcon from "@/assets/apple-icon.svg";
 
 const Download = () => {
   // Placeholder QR codes - these would be replaced with actual app store links
@@ -56,8 +57,8 @@ const Download = () => {
           {/* Apple App Store */}
           <Card className="p-8 hover-lift border-2 border-accent/20 bg-card/50 backdrop-blur">
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-24 h-24 rounded-2xl bg-gradient-to-br from-accent to-primary mb-6">
-                <Apple className="w-16 h-16 text-white" />
+              <div className="inline-flex items-center justify-center w-24 h-24 mb-6">
+                <img src={appleIcon} alt="Apple App Store" className="w-24 h-24" />
               </div>
               <h3 className="text-2xl font-bold mb-2">iOS</h3>
               <p className="text-muted-foreground mb-6">Download from App Store</p>
@@ -74,7 +75,7 @@ const Download = () => {
                 className="w-full"
                 onClick={() => window.open(appStoreUrl, '_blank')}
               >
-                <Apple className="w-5 h-5 mr-2" />
+                <img src={appleIcon} alt="Apple" className="w-5 h-5 mr-2" />
                 Download on the App Store
               </Button>
             </div>
