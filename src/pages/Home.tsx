@@ -68,12 +68,12 @@ const Home = () => {
               </span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
               Digitizing Smallholder{" "}
               <span className="text-gradient">Poultry Farming</span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl">
+            <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-2xl">
               Transform your poultry operations with IoT-integrated smart brooders, 
               AI analytics, and solar-powered technology designed for 300-1,000 birds.
             </p>
@@ -89,18 +89,18 @@ const Home = () => {
               </Button>
             </div>
 
-            <div className="flex flex-wrap gap-8 pt-8">
+            <div className="grid grid-cols-3 gap-4 sm:flex sm:flex-wrap sm:gap-8 pt-8">
               <div className="space-y-1">
-                <div className="text-4xl font-bold text-gradient">300+</div>
-                <div className="text-sm text-muted-foreground">Birds Capacity</div>
+                <div className="text-3xl sm:text-4xl font-bold text-gradient">300+</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">Birds Capacity</div>
               </div>
               <div className="space-y-1">
-                <div className="text-4xl font-bold text-gradient-accent">100%</div>
-                <div className="text-sm text-muted-foreground">Solar Powered</div>
+                <div className="text-3xl sm:text-4xl font-bold text-gradient-accent">100%</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">Solar Powered</div>
               </div>
               <div className="space-y-1">
-                <div className="text-4xl font-bold text-gradient">24/7</div>
-                <div className="text-sm text-muted-foreground">IoT Monitoring</div>
+                <div className="text-3xl sm:text-4xl font-bold text-gradient">24/7</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">IoT Monitoring</div>
               </div>
             </div>
           </div>

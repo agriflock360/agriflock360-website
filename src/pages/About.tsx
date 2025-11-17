@@ -66,12 +66,12 @@ const About = () => {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="py-20 gradient-hero">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
-          <h1 className="text-5xl md:text-6xl font-bold text-white animate-fade-in">
+      <section className="py-12 sm:py-16 md:py-20 gradient-hero">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4 sm:space-y-6">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white animate-fade-in">
             About AgriFlock360
           </h1>
-          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl md:text-2xl text-white/90 max-w-3xl mx-auto px-4">
             Pioneering the digital agriculture revolution with AI-powered IoT solutions 
             designed specifically for smallholder poultry farmers.
           </p>
@@ -148,7 +148,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {team.map((member, index) => (
               <Card
                 key={member.name}
@@ -156,7 +156,7 @@ const About = () => {
                 style={{ animationDelay: `${index * 50}ms` }}
               >
                 <div className="flex justify-center pt-6 pb-4">
-                  <div className="w-32 h-32 rounded-full overflow-hidden bg-muted">
+                  <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden bg-muted">
                     <img
                       src={member.image}
                       alt={member.name}
@@ -194,24 +194,24 @@ const About = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-muted/30">
+      <section className="py-12 sm:py-16 md:py-20 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 text-center">
             <div className="space-y-2">
-              <div className="text-5xl font-bold text-gradient">50+</div>
-              <div className="text-muted-foreground">Partner Farms</div>
+              <div className="text-4xl sm:text-5xl font-bold text-gradient">50+</div>
+              <div className="text-sm sm:text-base text-muted-foreground">Partner Farms</div>
             </div>
             <div className="space-y-2">
-              <div className="text-5xl font-bold text-gradient">15K+</div>
-              <div className="text-muted-foreground">Birds Monitored</div>
+              <div className="text-4xl sm:text-5xl font-bold text-gradient">15K+</div>
+              <div className="text-sm sm:text-base text-muted-foreground">Birds Monitored</div>
             </div>
             <div className="space-y-2">
-              <div className="text-5xl font-bold text-gradient-accent">30%</div>
-              <div className="text-muted-foreground">Mortality Reduction</div>
+              <div className="text-4xl sm:text-5xl font-bold text-gradient-accent">30%</div>
+              <div className="text-sm sm:text-base text-muted-foreground">Mortality Reduction</div>
             </div>
             <div className="space-y-2">
-              <div className="text-5xl font-bold text-gradient">100%</div>
-              <div className="text-muted-foreground">Solar Powered</div>
+              <div className="text-4xl sm:text-5xl font-bold text-gradient">100%</div>
+              <div className="text-sm sm:text-base text-muted-foreground">Solar Powered</div>
             </div>
           </div>
         </div>

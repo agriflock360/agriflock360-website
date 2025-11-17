@@ -51,11 +51,11 @@ const Vaccination = () => {
                   Health Module
                 </span>
               </div>
-              <h1 className="text-5xl md:text-6xl font-bold">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">
                 Vaccination & Health{" "}
                 <span className="text-gradient">Tracking</span>
               </h1>
-              <p className="text-xl text-muted-foreground">
+              <p className="text-lg sm:text-xl text-muted-foreground">
                 Reduce preventable chick mortality by helping farmers and veterinarians 
                 record, monitor, and verify vaccination schedules digitally.
               </p>

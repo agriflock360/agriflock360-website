@@ -14,31 +14,31 @@ const Download = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-primary/5">
       <div className="container mx-auto px-4 py-16">
-        <div className="max-w-4xl mx-auto text-center mb-12">
-          <div className="inline-flex items-center justify-center w-20 h-20 rounded-full gradient-hero mb-6">
-            <Smartphone className="w-10 h-10 text-white" />
+        <div className="max-w-4xl mx-auto text-center mb-8 sm:mb-12">
+          <div className="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 rounded-full gradient-hero mb-4 sm:mb-6">
+            <Smartphone className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gradient">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4 text-gradient px-4">
             Download AgriFlock360
           </h1>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
             Take your poultry farm management to the next level. Download our mobile app and manage your operations on the go.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-4xl mx-auto mb-8 sm:mb-12">
           {/* Google Play Store */}
-          <Card className="p-8 hover-lift border-2 border-primary/20 bg-card/50 backdrop-blur">
+          <Card className="p-6 sm:p-8 hover-lift border-2 border-primary/20 bg-card/50 backdrop-blur">
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-24 h-24 mb-6">
-                <img src={googlePlayIcon} alt="Google Play Store" className="w-24 h-24" />
+              <div className="inline-flex items-center justify-center w-20 h-20 sm:w-24 sm:h-24 mb-4 sm:mb-6">
+                <img src={googlePlayIcon} alt="Google Play Store" className="w-20 h-20 sm:w-24 sm:h-24" />
               </div>
-              <h3 className="text-2xl font-bold mb-2">Android</h3>
-              <p className="text-muted-foreground mb-6">Download from Google Play Store</p>
+              <h3 className="text-xl sm:text-2xl font-bold mb-2">Android</h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-4 sm:mb-6">Download from Google Play Store</p>
               
               {/* QR Code */}
-              <div className="bg-white p-4 rounded-lg inline-block mb-6">
-                <img src={qrAndroid} alt="Android QR Code" className="w-48 h-48" />
+              <div className="bg-white p-3 sm:p-4 rounded-lg inline-block mb-4 sm:mb-6">
+                <img src={qrAndroid} alt="Android QR Code" className="w-36 h-36 sm:w-48 sm:h-48" />
                 <p className="text-xs text-gray-500 mt-2">Scan to download</p>
               </div>
 
@@ -55,17 +55,17 @@ const Download = () => {
           </Card>
 
           {/* Apple App Store */}
-          <Card className="p-8 hover-lift border-2 border-accent/20 bg-card/50 backdrop-blur">
+          <Card className="p-6 sm:p-8 hover-lift border-2 border-accent/20 bg-card/50 backdrop-blur">
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-24 h-24 mb-6">
-                <img src={appleIcon} alt="Apple App Store" className="w-24 h-24" />
+              <div className="inline-flex items-center justify-center w-20 h-20 sm:w-24 sm:h-24 mb-4 sm:mb-6">
+                <img src={appleIcon} alt="Apple App Store" className="w-20 h-20 sm:w-24 sm:h-24" />
               </div>
-              <h3 className="text-2xl font-bold mb-2">iOS</h3>
-              <p className="text-muted-foreground mb-6">Download from App Store</p>
+              <h3 className="text-xl sm:text-2xl font-bold mb-2">iOS</h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-4 sm:mb-6">Download from App Store</p>
               
               {/* QR Code */}
-              <div className="bg-white p-4 rounded-lg inline-block mb-6">
-                <img src={qrIos} alt="iOS QR Code" className="w-48 h-48" />
+              <div className="bg-white p-3 sm:p-4 rounded-lg inline-block mb-4 sm:mb-6">
+                <img src={qrIos} alt="iOS QR Code" className="w-36 h-36 sm:w-48 sm:h-48" />
                 <p className="text-xs text-gray-500 mt-2">Scan to download</p>
               </div>
 
