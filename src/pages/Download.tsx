@@ -1,6 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Apple, Smartphone, QrCode } from "lucide-react";
+import { Apple, Smartphone } from "lucide-react";
+import googlePlayIcon from "@/assets/google-play.png";
+import qrAndroid from "@/assets/qr-android.png";
+import qrIos from "@/assets/qr-ios.png";
 
 const Download = () => {
   // Placeholder QR codes - these would be replaced with actual app store links
@@ -26,19 +29,15 @@ const Download = () => {
           {/* Google Play Store */}
           <Card className="p-8 hover-lift border-2 border-primary/20 bg-card/50 backdrop-blur">
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-24 h-24 rounded-2xl bg-gradient-to-br from-primary to-accent mb-6">
-                <svg viewBox="0 0 24 24" className="w-16 h-16 text-white" fill="currentColor">
-                  <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
-                </svg>
+              <div className="inline-flex items-center justify-center w-24 h-24 mb-6">
+                <img src={googlePlayIcon} alt="Google Play Store" className="w-24 h-24" />
               </div>
               <h3 className="text-2xl font-bold mb-2">Android</h3>
               <p className="text-muted-foreground mb-6">Download from Google Play Store</p>
               
-              {/* QR Code Placeholder */}
+              {/* QR Code */}
               <div className="bg-white p-4 rounded-lg inline-block mb-6">
-                <div className="w-48 h-48 bg-gradient-to-br from-gray-100 to-gray-200 rounded flex items-center justify-center">
-                  <QrCode className="w-32 h-32 text-gray-400" />
-                </div>
+                <img src={qrAndroid} alt="Android QR Code" className="w-48 h-48" />
                 <p className="text-xs text-gray-500 mt-2">Scan to download</p>
               </div>
 
@@ -48,9 +47,7 @@ const Download = () => {
                 className="w-full"
                 onClick={() => window.open(playStoreUrl, '_blank')}
               >
-                <svg viewBox="0 0 24 24" className="w-5 h-5 mr-2" fill="currentColor">
-                  <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
-                </svg>
+                <img src={googlePlayIcon} alt="Google Play" className="w-5 h-5 mr-2" />
                 Get it on Google Play
               </Button>
             </div>
@@ -65,11 +62,9 @@ const Download = () => {
               <h3 className="text-2xl font-bold mb-2">iOS</h3>
               <p className="text-muted-foreground mb-6">Download from App Store</p>
               
-              {/* QR Code Placeholder */}
+              {/* QR Code */}
               <div className="bg-white p-4 rounded-lg inline-block mb-6">
-                <div className="w-48 h-48 bg-gradient-to-br from-gray-100 to-gray-200 rounded flex items-center justify-center">
-                  <QrCode className="w-32 h-32 text-gray-400" />
-                </div>
+                <img src={qrIos} alt="iOS QR Code" className="w-48 h-48" />
                 <p className="text-xs text-gray-500 mt-2">Scan to download</p>
               </div>
 
