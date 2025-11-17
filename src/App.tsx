@@ -11,6 +11,8 @@ import Feeding from "./pages/Feeding";
 import Brooder from "./pages/Brooder";
 import About from "./pages/About";
 import Download from "./pages/Download";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsConditions from "./pages/TermsConditions";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -31,6 +33,8 @@ const App = () => (
               <Route path="/brooder" element={<Brooder />} />
               <Route path="/about" element={<About />} />
               <Route path="/download" element={<Download />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/terms-conditions" element={<TermsConditions />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
