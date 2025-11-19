@@ -11,7 +11,7 @@ import sheenaPhoto from "@/assets/sheena-prasad.png";
 const team = [
   {
     name: "Peter Davis Krahenbuhl",
-    position: "CEO",
+    position: "Partner & CEO",
     image: peterPhoto,
     linkedin: "https://www.linkedin.com/in/peterkrahenbuhl/",
     bio: "Mission-driven business, sustainability and communications leader with decades of experience guiding business, government and NGOs in global climate, equity, and impact ventures. Co-founder and former President of Sustainable Travel International & currently on the Advisory Committee for the Global ESG Leadership Organization. At AgriFlock360, Peter leads strategic growth, partnerships, and sustainably-aligned business development, positioning the company at the intersection of regenerative agriculture, fintech, and carbon innovation.",
@@ -50,12 +50,12 @@ const values = [
   {
     icon: Target,
     title: "Our Mission",
-    description: "Empower smallholder poultry farmers with affordable, AI-powered IoT technology to increase productivity and profitability while promoting sustainable agriculture.",
+    description: "Empower smallholder poultry farmers with access to finance, markets and technology under one platform, boosting their income by 40%",
   },
   {
     icon: Eye,
     title: "Our Vision",
-    description: "Become the leading digital agriculture platform in Africa, transforming millions of smallholder farms into data-driven, profitable businesses.",
+    description: "Digitally empowered smallholder poultry farmers driving Africa's sustainable food security",
   },
   {
     icon: Zap,
@@ -111,15 +111,8 @@ const About = () => {
             <Card className="p-8 border-2 border-primary/20">
               <div className="prose prose-slate max-w-none space-y-4 text-muted-foreground">
                 <p>
-                  AgriFlock360 was born from a simple observation: smallholder poultry farmers were losing 
-                  up to 30% of their chicks due to preventable causes like temperature fluctuations, missed 
-                  vaccinations, and inefficient feeding practices.
-                </p>
-                <p>
-                  Our founders, with backgrounds in agricultural technology and IoT engineering, recognized 
-                  that the same smart sensors and AI algorithms transforming large commercial farms could be 
-                  adapted for smallholder operations—if designed with affordability, offline capability, and 
-                  ease of use as core principles.
+                  AgriFlock360 was born from a decade of observation of bottlenecks affecting poultry value chain and farmers losing 
+                  up to 30% of their chicks due to preventable causes.
                 </p>
                 <p>
                   After two years of research, prototyping, and field testing with over 50 farmers across 
@@ -127,7 +120,7 @@ const About = () => {
                   solar-powered smart brooders with mobile-first farm management tools.
                 </p>
                 <p>
-                  Today, we're working with poultry farmers managing 300-1,000 birds, helping them reduce 
+                  Today, we're working with small holder poultry farmers across the world, helping them reduce 
                   mortality rates, optimize feed conversion, and increase profitability—all while promoting 
                   sustainable, solar-powered agriculture.
                 </p>
@@ -200,11 +193,11 @@ const About = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 text-center">
             <div className="space-y-2">
-              <div className="text-4xl sm:text-5xl font-bold text-gradient">50+</div>
+              <div className="text-4xl sm:text-5xl font-bold text-gradient">20+</div>
               <div className="text-sm sm:text-base text-muted-foreground">Partner Farms</div>
             </div>
             <div className="space-y-2">
-              <div className="text-4xl sm:text-5xl font-bold text-gradient">15K+</div>
+              <div className="text-4xl sm:text-5xl font-bold text-gradient">10K+</div>
               <div className="text-sm sm:text-base text-muted-foreground">Birds Monitored</div>
             </div>
             <div className="space-y-2">

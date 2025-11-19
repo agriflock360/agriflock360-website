@@ -57,7 +57,7 @@ const Feeding = () => {
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground">
                 Optimize daily feed allocation and measure feed-to-weight efficiency 
-                for smallholder farmers managing 300–1,000 birds.
+                for smallholder farmers managing birds.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button variant="accent" size="lg" asChild>

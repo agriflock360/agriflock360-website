@@ -74,8 +74,7 @@ const Home = () => {
             </h1>
             
             <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-2xl">
-              Transform your poultry operations with IoT-integrated smart brooders, 
-              AI analytics, and solar-powered technology designed for 300-1,000 birds.
+              Transform your poultry operations with IoT-integrated smart solar brooders, AI analytics, multiple integrated productivity tools and trace your chicken from farm to fork through blockchain technology.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -91,7 +90,7 @@ const Home = () => {
 
             <div className="grid grid-cols-3 gap-4 sm:flex sm:flex-wrap sm:gap-8 pt-8">
               <div className="space-y-1">
-                <div className="text-3xl sm:text-4xl font-bold text-gradient">300+</div>
+                <div className="text-3xl sm:text-4xl font-bold text-gradient">100+</div>
                 <div className="text-xs sm:text-sm text-muted-foreground">Birds Capacity</div>
               </div>
               <div className="space-y-1">
@@ -118,7 +117,7 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Three Integrated <span className="text-gradient">Modules</span>
+              Our <span className="text-gradient">Solutions & Services</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Complete farm management system with health tracking, feeding optimization, and IoT automation

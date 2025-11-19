@@ -33,7 +33,7 @@ const features = [
   {
     icon: Bell,
     title: "Smart Alerts",
-    description: "Instant notifications for critical conditions, power failures, or sensor issues",
+    description: "Instant notifications for critical conditions, power failures, sensor issues, low wtaer & feed levels",
   },
 ];
 
@@ -63,7 +63,7 @@ const Brooder = () => {
                 <span className="text-gradient">IoT Integration</span>
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground">
-                Digitize and automate brooding for 300–1,000 chicks through IoT sensors, 
+                Digitize and automate brooding for chicks through IoT sensors, 
                 AI alerts, and 100% solar-powered energy systems.
               </p>
               <div className="flex flex-wrap gap-4">
