@@ -115,7 +115,7 @@ const About = () => {
                   up to 30% of their chicks due to preventable causes.
                 </p>
                 <p>
-                  After two years of research, prototyping, and field testing with over 50 farmers across 
+                  After years of research, prototyping, and field testing with over 50 farmers across 
                   three countries, we developed the AgriFlock360 MVP: a complete ecosystem combining 
                   solar-powered smart brooders with mobile-first farm management tools.
                 </p>
