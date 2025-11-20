@@ -37,8 +37,9 @@ const services = [
   },
   {
     name: "AI Analytics & Record Keeping",
+    href: "/analytics",
     icon: BarChart3,
-    available: false,
+    available: true,
   },
   {
     name: "Real-Time Disease Detection",
