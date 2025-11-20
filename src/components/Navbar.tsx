@@ -117,7 +117,6 @@ export const Navbar = () => {
                     <DropdownMenuItem key={service.name} disabled className="flex items-center gap-3 opacity-60">
                       <service.icon className="h-4 w-4" />
                       <span className="flex-1">{service.name}</span>
-                      <Badge variant="secondary" className="text-xs">Coming Soon</Badge>
                     </DropdownMenuItem>
                   )
                 ))}
@@ -181,7 +180,6 @@ export const Navbar = () => {
                     >
                       <service.icon className="h-4 w-4" />
                       <span className="text-sm flex-1">{service.name}</span>
-                      <Badge variant="secondary" className="text-xs">Coming Soon</Badge>
                     </div>
                   )
                 ))}
