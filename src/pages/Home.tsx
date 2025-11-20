@@ -159,6 +159,32 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12 space-y-4 animate-fade-in">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+                See AgriFlock 360 in Action
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                Watch how our platform transforms poultry farming
+              </p>
+            </div>
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl animate-fade-in">
+              <video
+                className="w-full aspect-video"
+                controls
+                preload="metadata"
+              >
+                <source src="/AgriFlock360 Video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
