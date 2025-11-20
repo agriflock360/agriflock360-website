@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Linkedin, Target, Eye, Zap } from "lucide-react";
+import { Linkedin, Target, Eye, Zap, ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import teamPlaceholder from "@/assets/team-placeholder.jpg";
@@ -8,6 +8,7 @@ import peterPhoto from "@/assets/peter-krahenbuhl.jpg";
 import abisaiPhoto from "@/assets/abisai-nandi.jpg";
 import jamesPhoto from "@/assets/james-obimbo.png";
 import sheenaPhoto from "@/assets/sheena-prasad.png";
+import mglobalLogo from "@/assets/mglobal-logo.jpg";
 
 const team = [
   {
@@ -44,6 +45,29 @@ const team = [
     image: jamesPhoto,
     linkedin: "https://www.linkedin.com/in/jamesobimbo/",
     bio: "Finance expert with certifications in CPA(K), CIFA, and CFA, specializing in capital raising, financial modeling, and strategic advising for agribusiness in Africa. James brings deep expertise in capital raising, financial modeling, governance, and investor relations to support AgriFlock360’s sustainable growth.",
+  },
+];
+
+const engineeringTeam = [
+  {
+    name: "Engineer Name 1",
+    position: "Role/Title",
+    image: teamPlaceholder,
+  },
+  {
+    name: "Engineer Name 2",
+    position: "Role/Title",
+    image: teamPlaceholder,
+  },
+  {
+    name: "Engineer Name 3",
+    position: "Role/Title",
+    image: teamPlaceholder,
+  },
+  {
+    name: "Engineer Name 4",
+    position: "Role/Title",
+    image: teamPlaceholder,
   },
 ];
 
@@ -199,6 +223,45 @@ const About = () => {
                 </div>
               </Card>
             ))}
+            
+            {/* Engineering Team Card */}
+            <Card
+              className="overflow-hidden hover-lift border-2 hover:border-primary/50 transition-all lg:col-span-2"
+              style={{ animationDelay: `${team.length * 50}ms` }}
+            >
+              <div className="p-6 space-y-6">
+                <div className="text-center space-y-3">
+                  <h3 className="text-2xl font-bold">Engineering Team</h3>
+                  <a
+                    href="https://www.mglobal.co.ke"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-medium text-lg"
+                  >
+                    M'Global Business Consultancy
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+                </div>
+                
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                  {engineeringTeam.map((engineer) => (
+                    <div key={engineer.name} className="text-center space-y-2">
+                      <div className="w-20 h-20 mx-auto rounded-full overflow-hidden bg-muted">
+                        <img
+                          src={engineer.image}
+                          alt={engineer.name}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                      <div>
+                        <p className="font-semibold text-sm">{engineer.name}</p>
+                        <p className="text-xs text-muted-foreground">{engineer.position}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </Card>
           </div>
         </div>
       </section>
