@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Thermometer, Droplets, Battery, Wifi, QrCode, Bell } from "lucide-react";
 import { Link } from "react-router-dom";
 import brooderImage from "@/assets/brooder-module.jpg";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const features = [
   {
@@ -46,6 +47,8 @@ const telemetryData = [
 ];
 
 const Brooder = () => {
+  const { ref: telemetryRef, isVisible: telemetryVisible } = useScrollReveal();
+  
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
@@ -104,12 +107,20 @@ const Brooder = () => {
               </p>
             </div>
 
-            <Card className="p-8 border-2 border-primary/20">
+            <Card 
+              ref={telemetryRef}
+              className={`p-8 border-2 border-primary/20 transition-all duration-700 ${
+                telemetryVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+              }`}
+            >
               <div className="grid md:grid-cols-2 gap-6">
-                {telemetryData.map((data) => (
+                {telemetryData.map((data, index) => (
                   <div
                     key={data.label}
-                    className="flex items-center justify-between p-4 bg-muted/50 rounded-lg"
+                    className={`flex items-center justify-between p-4 bg-muted/50 rounded-lg transition-all duration-700 ${
+                      telemetryVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+                    }`}
+                    style={{ transitionDelay: `${index * 100}ms` }}
                   >
                     <div>
                       <div className="text-sm text-muted-foreground mb-1">{data.label}</div>
