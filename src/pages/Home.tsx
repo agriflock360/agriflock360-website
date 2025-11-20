@@ -34,8 +34,9 @@ const modules = [
     title: "AI Analytics & Record Keeping",
     description: "Automated farm insights and performance data with intelligent record management and analytics.",
     icon: BarChart3,
+    href: "/analytics",
     color: "text-primary",
-    available: false,
+    available: true,
   },
   {
     title: "Real-Time Disease Detection",

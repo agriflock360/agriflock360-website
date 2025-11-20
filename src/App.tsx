@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import Vaccination from "./pages/Vaccination";
 import Feeding from "./pages/Feeding";
 import Brooder from "./pages/Brooder";
+import Analytics from "./pages/Analytics";
 import About from "./pages/About";
 import Download from "./pages/Download";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -33,6 +34,7 @@ const App = () => (
               <Route path="/vaccination" element={<Vaccination />} />
               <Route path="/feeding" element={<Feeding />} />
               <Route path="/brooder" element={<Brooder />} />
+              <Route path="/analytics" element={<Analytics />} />
               <Route path="/about" element={<About />} />
               <Route path="/download" element={<Download />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
