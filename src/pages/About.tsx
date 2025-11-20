@@ -50,28 +50,28 @@ const team = [
 
 const engineeringTeam = [
   {
-    name: "Engineer Name 1",
-    position: "Role/Title",
+    name: "Mititi Isaac",
+    position: "Frontend & Lead Engineer",
     image: teamPlaceholder,
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/io-mititi/",
   },
   {
-    name: "Engineer Name 2",
-    position: "Role/Title",
+    name: "Mumbua Mutuku",
+    position: "Backend & DevOps Engineer",
     image: teamPlaceholder,
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/mumbuamutuku",
   },
   {
-    name: "Engineer Name 3",
-    position: "Role/Title",
+    name: "Dickson Mumo",
+    position: "IoT Engineer",
     image: teamPlaceholder,
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/dickson-mumo-4bba7697/",
   },
   {
-    name: "Engineer Name 4",
-    position: "Role/Title",
+    name: "Hemstone Alumasa",
+    position: "Mobile App Engineer",
     image: teamPlaceholder,
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/hemstone-alumasa-software-engineer/",
   },
 ];
 
