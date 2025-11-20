@@ -190,6 +190,7 @@ const Home = () => {
                       className="w-full h-full object-cover"
                       controls
                       preload="metadata"
+                      poster={heroImage}
                     >
                       <source src="/AgriFlock360 Video.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
