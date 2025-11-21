@@ -185,7 +185,7 @@ const Home = () => {
                 What is AgriFlock360?
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-                A comprehensive digital platform that transforms traditional poultry farming into a data-driven, efficient operation with cutting-edge technology and AI-powered insights.
+                An end-to-end smart farming solution that transforms traditional poultry farming into a data-driven, efficient operation with cutting-edge technology and AI-powered insights.
               </p>
             </div>
 
