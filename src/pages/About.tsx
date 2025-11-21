@@ -17,7 +17,7 @@ import hemstonePhoto from "@/assets/hemstone-alumasa.jpg";
 const team = [
   {
     name: "Peter Davis Krahenbuhl",
-    position: "Partner & CEO",
+    position: "Co-founder & CEO",
     image: peterPhoto,
     linkedin: "https://www.linkedin.com/in/peterkrahenbuhl/",
     bio: "Mission-driven business, sustainability and communications leader with decades of experience guiding business, government and NGOs in global climate, equity, and impact ventures. Co-founder and former President of Sustainable Travel International & currently on the Advisory Committee for the Global ESG Leadership Organization. At AgriFlock360, Peter leads strategic growth, partnerships, and sustainably-aligned business development, positioning the company at the intersection of regenerative agriculture, fintech, and carbon innovation.",
@@ -38,14 +38,14 @@ const team = [
   // },
   {
     name: "Sheena Prasad",
-    position: "Marketing Director",
+    position: "Partner & Marketing Director",
     image: sheenaPhoto,
     linkedin: "https://www.linkedin.com/in/sheenaprasad/",
     bio: "Creative marketer with 10+ years of experience growing mission-driven brands and digital platforms rooted in social and environmental impact.  Known for aligning mission with messaging, Sheena drives AgriFlock360’s brand growth, digital engagement, and bridging farmer-focused communication with global platform visibility.",
   },
   {
     name: "James Obimbo",
-    position: "CFO",
+    position: "Partner & CFO",
     image: jamesPhoto,
     linkedin: "https://www.linkedin.com/in/jamesobimbo/",
     bio: "Finance expert with certifications in CPA(K), CIFA, and CFA, specializing in capital raising, financial modeling, and strategic advising for agribusiness in Africa. James brings deep expertise in capital raising, financial modeling, governance, and investor relations to support AgriFlock360’s sustainable growth.",
