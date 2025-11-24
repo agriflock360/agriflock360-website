@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Loader2 } from 'lucide-react';
 import { removeBackground, loadImageFromUrl } from '@/utils/removeBackground';
-import agriflockLogo from '@/assets/agriflock-logo-new.jpg';
+import agriflockLogo from '@/assets/agriflock-logo-new.png';
 import { toast } from 'sonner';
 
 export default function ProcessLogo() {
