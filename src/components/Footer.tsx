@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Linkedin, Mail, Phone, Facebook, Instagram, Twitter } from "lucide-react";
-import agriflockLogo from "@/assets/agriflock-logo-new.jpg";
+import agriflockLogo from "@/assets/agriflock-logo-new.png";
 
 export const Footer = () => {
   return (

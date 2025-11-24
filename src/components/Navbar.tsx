@@ -9,7 +9,7 @@ import {
 } from "./ui/dropdown-menu";
 import { Menu, X, ChevronDown, Activity, Sprout, Zap, BarChart3, AlertTriangle, TrendingUp, ShoppingBag, GitBranch, GraduationCap, Smartphone, Monitor } from "lucide-react";
 import { useState } from "react";
-import agriflockLogo from "@/assets/agriflock-logo-new.jpg";
+import agriflockLogo from "@/assets/agriflock-logo-new.png";
 
 const navigation = [
   { name: "Home", href: "/" },
