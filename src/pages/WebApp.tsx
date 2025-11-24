@@ -106,10 +106,10 @@ const WebApp = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <Button variant="hero" size="lg" asChild>
-                <a href="https://app.agriflock360.io" target="_blank" rel="noopener noreferrer">
+                <Link to="/coming-soon">
                   <Monitor className="mr-2 h-5 w-5" />
                   Launch Web App <ArrowRight className="ml-2" />
-                </a>
+                </Link>
               </Button>
               <Button variant="outline" size="lg" asChild>
                 <Link to="/download">
@@ -324,10 +324,10 @@ const WebApp = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button variant="accent" size="lg" asChild>
-              <a href="https://app.agriflock360.io" target="_blank" rel="noopener noreferrer">
+              <Link to="/coming-soon">
                 <Monitor className="mr-2 h-5 w-5" />
                 Launch Web App <ArrowRight className="ml-2" />
-              </a>
+              </Link>
             </Button>
             <Button variant="outline" size="lg" asChild className="text-white border-white hover:bg-white hover:text-primary">
               <Link to="/download">

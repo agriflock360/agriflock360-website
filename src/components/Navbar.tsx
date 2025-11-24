@@ -138,10 +138,10 @@ export const Navbar = () => {
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
-                  <a href="https://app.agriflock360.io" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 cursor-pointer">
+                  <Link to="/coming-soon" className="flex items-center gap-3 cursor-pointer">
                     <Monitor className="h-4 w-4 text-primary" />
                     <span>Launch Web App</span>
-                  </a>
+                  </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
                   <Link to="/web-app" className="flex items-center gap-3 cursor-pointer">
@@ -219,10 +219,10 @@ export const Navbar = () => {
                 </Link>
               </Button>
               <Button variant="outline" size="sm" className="w-full" asChild>
-                <a href="https://app.agriflock360.io" target="_blank" rel="noopener noreferrer">
+                <Link to="/coming-soon">
                   <Monitor className="mr-2 h-4 w-4" />
                   Launch Web App
-                </a>
+                </Link>
               </Button>
               <Button variant="ghost" size="sm" className="w-full" asChild>
                 <Link to="/web-app">

@@ -138,9 +138,9 @@ const Home = () => {
                 </Link>
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <a href="https://app.agriflock360.io" target="_blank" rel="noopener noreferrer">
+                <Link to="/coming-soon">
                   Explore via Web App <ArrowRight className="ml-2" />
-                </a>
+                </Link>
               </Button>
             </div>
 
@@ -285,12 +285,12 @@ const Home = () => {
                       <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform" />
                     </Button>
                   </Link>
-                  <a href="https://app.agriflock360.io" target="_blank" rel="noopener noreferrer" className="flex-1 sm:flex-initial">
+                  <Link to="/coming-soon" className="flex-1 sm:flex-initial">
                     <Button variant="outline" size="lg" className="w-full sm:w-auto text-sm sm:text-base">
                       Explore via Web App
                       <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
                     </Button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -477,9 +477,9 @@ const Home = () => {
               </Link>
             </Button>
             <Button variant="outline" size="lg" asChild className="text-white border-white hover:bg-white hover:text-primary">
-              <a href="https://app.agriflock360.io" target="_blank" rel="noopener noreferrer">
+              <Link to="/coming-soon">
                 Explore via Web App <ArrowRight className="ml-2" />
-              </a>
+              </Link>
             </Button>
           </div>
         </div>
