@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Link } from "react-router-dom";
-import { ArrowRight, Activity, Sprout, Zap, BarChart3, Shield, Clock, AlertTriangle, TrendingUp, ShoppingBag, GitBranch, GraduationCap, Heart, Smartphone } from "lucide-react";
+import { ArrowRight, Activity, Sprout, Zap, BarChart3, Shield, Clock, AlertTriangle, TrendingUp, ShoppingBag, GitBranch, GraduationCap, Heart, Smartphone, HelpCircle } from "lucide-react";
 import heroImage from "@/assets/hero-farm.jpg";
 import boyWithChicken from "@/assets/boy-with-chicken.png";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
@@ -93,6 +94,61 @@ const features = [
     title: "Real-Time Monitoring",
     description: "Live IoT data updates every 5-10 minutes",
   },
+];
+
+const faqs = [
+  {
+    question: "What is AgriFlock360?",
+    answer: "AgriFlock360 is a mobile and web-based platform that uses AI, IoT, and data analytics to help poultry farmers manage their flocks, access credit, insurance, inputs, and markets, all in one place."
+  },
+  {
+    question: "Who can use AgriFlock360?",
+    answer: "Any poultry farmer, from smallholder to mid-scale, can use the platform to improve productivity and profitability. It is currently being deployed across Kenya. Extension officers to help them diagnose better and provide vaccination services. Poultry vendors and off-takers to access the farmers and buy grown chicken and eggs. Input providers to distribute and sell inputs."
+  },
+  {
+    question: "How do I register as a farmer?",
+    answer: "Download the AgriFlock360 app from the Google Play Store or visit our website. Create an account and follow the prompts to register your farm."
+  },
+  {
+    question: "Is the platform free to use?",
+    answer: "Basic features are free (Quotations, Vaccination calendar alerts etc.) Some advanced features like credit access, insurance, and AI-powered tools may come with a small service fee."
+  },
+  {
+    question: "How can I access financing or loans?",
+    answer: "AgriFlock360 offers a credit module with a check-off repayment system. Farmers can apply through the app and receive loans based on their credit score and farm data also to be rated from the App by the accurate information provided."
+  },
+  {
+    question: "How does the check-off system work?",
+    answer: "Loan repayments are automatically deducted from the proceeds when farmers sell their poultry through the platform or affiliated approved aggregators from the system."
+  },
+  {
+    question: "What kind of AI tools are included?",
+    answer: "The platform offers tools for precision feeding, disease detection, vaccination reminders, performance tracking, and more—all powered by AI."
+  },
+  {
+    question: "How does AgriFlock360 support sustainable farming?",
+    answer: "We encourage climate-smart practices like composting, solar brooders, and biogas use, and we are working toward helping farmers earn from carbon credits."
+  },
+  {
+    question: "What kind of insurance does AgriFlock360 offer?",
+    answer: "AgriFlock360 partners with local insurers to offer livestock coverage against common risks like disease, theft, and mortality for layers, broilers and indigenous chickens."
+  },
+  {
+    question: "Can I access the platform without a smartphone?",
+    answer: "Yes. We are working on a USSD/SMS-based version to reach farmers with basic phones."
+  },
+  {
+    question: "Is training provided for new users?",
+    answer: "Yes. We provide video tutorials, in-app support, and extension officers to assist farmers in using the platform effectively."
+  },
+  {
+    question: "Can I sell my chickens or eggs through the app?",
+    answer: "Yes. The e-commerce module connects farmers with verified buyers, helping them access better prices and wider markets."
+  },
+  {
+    question: "Is my data safe on AgriFlock360?",
+    answer: "Absolutely. We use end-to-end encryption and follow data protection regulations to keep farmer data secure."
+  }
 ];
 
 const Home = () => {
@@ -456,6 +512,54 @@ const Home = () => {
                 <p className="text-muted-foreground">{feature.description}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-muted/30">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16 space-y-4">
+              <div className="inline-block">
+                <Badge className="text-sm px-4 py-1.5">
+                  <HelpCircle className="w-4 h-4 mr-2 inline" />
+                  FAQ
+                </Badge>
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold">
+                Frequently Asked <span className="text-gradient">Questions</span>
+              </h2>
+              <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+                Everything you need to know about AgriFlock360
+              </p>
+            </div>
+
+            <Accordion type="single" collapsible className="space-y-4">
+              {faqs.map((faq, index) => (
+                <AccordionItem 
+                  key={index} 
+                  value={`item-${index}`}
+                  className="bg-card border-2 border-border rounded-lg px-6 hover:border-primary/50 transition-colors"
+                >
+                  <AccordionTrigger className="text-left text-base md:text-lg font-semibold hover:text-primary py-6">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground text-sm md:text-base leading-relaxed pb-6">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+
+            <div className="text-center mt-12">
+              <p className="text-muted-foreground mb-4">Still have questions?</p>
+              <Button variant="hero" size="lg" asChild>
+                <Link to="/contact">
+                  Contact Us <ArrowRight className="ml-2" />
+                </Link>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
