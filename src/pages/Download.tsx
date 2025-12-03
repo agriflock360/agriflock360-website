@@ -19,7 +19,7 @@ const Download = () => {
             <Smartphone className="w-7 h-7 sm:w-8 sm:h-8 text-white" />
           </div>
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-3 text-gradient px-4">
-            Download AgriFlock360
+            Download AgriFlock 360 Mobile App
           </h1>
           <p className="text-sm sm:text-base text-muted-foreground max-w-2xl mx-auto px-4">
             Take your poultry farm management to the next level. Download our mobile app and manage your operations on the go.
@@ -84,7 +84,7 @@ const Download = () => {
 
         {/* Additional Info */}
         <Card className="max-w-3xl mx-auto p-4 sm:p-6 bg-card/50 backdrop-blur border-2 border-primary/20">
-          <h3 className="text-2xl font-bold mb-4 text-center">Why Download AgriFlock360?</h3>
+          <h3 className="text-2xl font-bold mb-4 text-center">Why Download AgriFlock 360 Mobile App?</h3>
           <div className="grid md:grid-cols-3 gap-6 text-center">
             <div>
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">

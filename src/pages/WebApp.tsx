@@ -101,7 +101,7 @@ const WebApp = () => {
             </h1>
             
             <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
-              Access AgriFlock360's powerful web platform for comprehensive farm management, advanced analytics, and team collaboration—all from your desktop or laptop.
+              Access AgriFlock 360's powerful web platform for comprehensive farm management, advanced analytics, and team collaboration—all from your desktop or laptop.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
@@ -130,7 +130,7 @@ const WebApp = () => {
               Why Choose the <span className="text-gradient">Web Platform?</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Experience the full power of AgriFlock360 with features designed for desktop productivity
+              Experience the full power of AgriFlock 360 with features designed for desktop productivity
             </p>
           </div>
 
@@ -320,7 +320,7 @@ const WebApp = () => {
             Start Managing Your Farm Today
           </h2>
           <p className="text-xl text-white/80 max-w-2xl mx-auto">
-            Access AgriFlock360 from any device—use the web app for comprehensive management or mobile app for on-the-go operations
+            Access AgriFlock 360 from any device—use the web app for comprehensive management or mobile app for on-the-go operations
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button variant="accent" size="lg" asChild>

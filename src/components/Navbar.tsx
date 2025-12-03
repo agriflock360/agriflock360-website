@@ -78,7 +78,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-3 shrink-0">
             <img src={agriflockLogo} alt="AgriFlock 360 Logo" className="w-16 h-16 rounded-lg object-contain" />
-            <span className="text-lg sm:text-xl font-bold text-gradient whitespace-nowrap">AgriFlock360</span>
+            <span className="text-lg sm:text-xl font-bold text-gradient whitespace-nowrap">AgriFlock 360</span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -10,7 +10,7 @@ export const Footer = () => {
           <div className="space-y-4 text-center sm:text-left">
             <div className="flex items-center space-x-3 justify-center sm:justify-start">
               <img src={agriflockLogo} alt="AgriFlock 360 Logo" className="w-14 h-14 rounded-lg object-contain" />
-              <span className="text-xl font-bold">AgriFlock360</span>
+              <span className="text-xl font-bold">AgriFlock 360</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Digitizing smallholder poultry farming through AI-powered IoT solutions.
@@ -108,11 +108,11 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-muted-foreground space-y-2">
-          <p>&copy; {new Date().getFullYear()} AgriFlock360. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} AgriFlock 360. All rights reserved.</p>
           <p>
             Developed by{" "}
             <a 
-              href="https://mglobalbusinessconsultancy.com" 
+              href="https://mglobalbusinessconsultancy.netlify.app" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-primary hover:text-primary/80 transition-colors font-medium"

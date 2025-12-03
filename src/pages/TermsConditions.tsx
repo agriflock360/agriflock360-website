@@ -11,7 +11,7 @@ const TermsConditions = () => {
           <section>
             <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">1. Introduction</h2>
             <p className="text-muted-foreground leading-relaxed">
-              Welcome to AgriFlock360, a digital and IoT-enabled poultry management platform designed to help farmers improve productivity through real-time brooder monitoring, production tracking, payment management, and data-driven farm decisions.
+              Welcome to AgriFlock 360, a digital and IoT-enabled poultry management platform designed to help farmers improve productivity through real-time brooder monitoring, production tracking, payment management, and data-driven farm decisions.
             </p>
             <p className="text-muted-foreground leading-relaxed mt-3">
               By accessing or using our website, mobile app, dashboard, and IoT devices, you agree to be bound by these Terms & Conditions ("Terms"). If you do not agree, you may not use the platform or any associated services.
@@ -21,7 +21,7 @@ const TermsConditions = () => {
           <section>
             <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">2. Definitions</h2>
             <ul className="list-disc pl-5 sm:pl-6 space-y-2 text-muted-foreground">
-              <li><strong>"Platform/We"</strong> refers to the AgriFlock360 website, mobile app, admin dashboard, and IoT ecosystem.</li>
+              <li><strong>"Platform/We"</strong> refers to the AgriFlock 360 website, mobile app, admin dashboard, and IoT ecosystem.</li>
               <li><strong>"User", "You"</strong> refers to any farmer, organization, administrator, or agent using the platform.</li>
               <li><strong>"IoT Device"</strong> refers to the Smart Brooder or any hardware connected to the platform.</li>
               <li><strong>"PAYG"</strong> means Pay-As-You-Go financing model.</li>
@@ -128,7 +128,7 @@ const TermsConditions = () => {
           <section>
             <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">10. Intellectual Property</h2>
             <p className="text-muted-foreground mb-3">
-              All intellectual property—software, hardware designs, firmware, trademarks, brand identity, and documentation—belongs exclusively to AgriFlock360.
+              All intellectual property—software, hardware designs, firmware, trademarks, brand identity, and documentation—belongs exclusively to AgriFlock 360.
             </p>
             <p className="text-muted-foreground mb-2">Users may not:</p>
             <ul className="list-disc pl-5 sm:pl-6 space-y-1 text-muted-foreground">
@@ -143,7 +143,7 @@ const TermsConditions = () => {
 
           <section>
             <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">11. Limitation of Liability</h2>
-            <p className="text-muted-foreground mb-2">AgriFlock360 is not liable for:</p>
+            <p className="text-muted-foreground mb-2">AgriFlock 360 is not liable for:</p>
             <ul className="list-disc pl-5 sm:pl-6 space-y-1 text-muted-foreground">
               <li>Loss of livestock caused by environmental factors</li>
               <li>User misuse of brooder hardware</li>

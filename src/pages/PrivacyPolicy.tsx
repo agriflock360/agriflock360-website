@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">1. Introduction</h2>
             <p className="text-muted-foreground leading-relaxed">
-              This Privacy Policy explains how AgriFlock360 collects, uses, stores, and protects your data across the website, mobile app, IoT devices, and services.
+              This Privacy Policy explains how AgriFlock 360 collects, uses, stores, and protects your data across the website, mobile app, IoT devices, and services.
             </p>
           </section>
 
@@ -198,7 +198,7 @@ const PrivacyPolicy = () => {
             <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">12. Contact Us</h2>
             <p className="text-muted-foreground">For questions or concerns:</p>
             <p className="text-muted-foreground mt-2">
-              <strong>AgriFlock360</strong><br />
+              <strong>AgriFlock 360</strong><br />
               Email: <a href="mailto:agriflock360@gmail.com" className="text-primary hover:text-primary/80 transition-colors">agriflock360@gmail.com</a>
             </p>
           </section>

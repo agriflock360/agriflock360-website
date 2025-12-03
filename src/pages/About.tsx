@@ -20,14 +20,14 @@ const team = [
     position: "Co-founder & CEO",
     image: peterPhoto,
     linkedin: "https://www.linkedin.com/in/peterkrahenbuhl/",
-    bio: "Mission-driven business, sustainability and communications leader with decades of experience guiding business, government and NGOs in global climate, equity, and impact ventures. Co-founder and former President of Sustainable Travel International & currently on the Advisory Committee for the Global ESG Leadership Organization. At AgriFlock360, Peter leads strategic growth, partnerships, and sustainably-aligned business development, positioning the company at the intersection of regenerative agriculture, fintech, and carbon innovation.",
+    bio: "Mission-driven business, sustainability and communications leader with decades of experience guiding business, government and NGOs in global climate, equity, and impact ventures. Co-founder and former President of Sustainable Travel International & currently on the Advisory Committee for the Global ESG Leadership Organization. At AgriFlock 360, Peter leads strategic growth, partnerships, and sustainably-aligned business development, positioning the company at the intersection of regenerative agriculture, fintech, and carbon innovation.",
   },
   {
     name: "Abisai Nandi",
     position: "Founder & CIO",
     image: abisaiPhoto,
     linkedin: "https://www.linkedin.com/in/abisai-nandi-443405145/",
-    bio: "Agritech entrepreneur with 10+ years of experience working alongside 10,000+ smallholder poultry farmers across Africa. As the visionary behind AgriFlock360, Abisai brings deep market insight and a farmer-first approach to product design. He leads innovation across AI, regenerative agriculture, and carbon credit readiness, ensuring AgriFlock360 delivers scalable, tech-enabled solutions to the communities that need them most.",
+    bio: "Agritech entrepreneur with 10+ years of experience working alongside 10,000+ smallholder poultry farmers across Africa. As the visionary behind AgriFlock 360, Abisai brings deep market insight and a farmer-first approach to product design. He leads innovation across AI, regenerative agriculture, and carbon credit readiness, ensuring AgriFlock 360 delivers scalable, tech-enabled solutions to the communities that need them most.",
   },
   // {
   //   name: "Chris Moore",
@@ -41,14 +41,14 @@ const team = [
     position: "Marketing Director",
     image: sheenaPhoto,
     linkedin: "https://www.linkedin.com/in/sheenaprasad/",
-    bio: "Creative marketer with 10+ years of experience growing mission-driven brands and digital platforms rooted in social and environmental impact.  Known for aligning mission with messaging, Sheena drives AgriFlock360’s brand growth, digital engagement, and bridging farmer-focused communication with global platform visibility.",
+    bio: "Creative marketer with 10+ years of experience growing mission-driven brands and digital platforms rooted in social and environmental impact.  Known for aligning mission with messaging, Sheena drives AgriFlock 360’s brand growth, digital engagement, and bridging farmer-focused communication with global platform visibility.",
   },
   {
     name: "James Obimbo",
     position: "Partner & CFO",
     image: jamesPhoto,
     linkedin: "https://www.linkedin.com/in/jamesobimbo/",
-    bio: "Finance expert with certifications in CPA(K), CIFA, and CFA, specializing in capital raising, financial modeling, and strategic advising for agribusiness in Africa. James brings deep expertise in capital raising, financial modeling, governance, and investor relations to support AgriFlock360’s sustainable growth.",
+    bio: "Finance expert with certifications in CPA(K), CIFA, and CFA, specializing in capital raising, financial modeling, and strategic advising for agribusiness in Africa. James brings deep expertise in capital raising, financial modeling, governance, and investor relations to support AgriFlock 360’s sustainable growth.",
   },
 ];
 
@@ -108,7 +108,7 @@ const About = () => {
       <section className="py-12 sm:py-16 md:py-20 gradient-hero">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4 sm:space-y-6">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white animate-fade-in">
-            About AgriFlock360
+            About AgriFlock 360
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-white/90 max-w-3xl mx-auto px-4">
             Pioneering the digital agriculture revolution with AI-powered IoT solutions 
@@ -153,12 +153,12 @@ const About = () => {
             <Card className="p-8 border-2 border-primary/20">
               <div className="prose prose-slate max-w-none space-y-4 text-muted-foreground">
                 <p>
-                  AgriFlock360 was born from a decade of observation of bottlenecks affecting poultry value chain and farmers losing 
+                  AgriFlock 360 was born from a decade of observation of bottlenecks affecting poultry value chain and farmers losing 
                   up to 30% of their chicks due to preventable causes.
                 </p>
                 <p>
                   After years of research, prototyping, and field testing with over 50 farmers across 
-                  three countries, we developed the AgriFlock360 MVP: a complete ecosystem combining 
+                  three countries, we developed the AgriFlock 360 MVP: a complete ecosystem combining 
                   solar-powered smart brooders with mobile-first farm management tools.
                 </p>
                 <p>
@@ -241,7 +241,7 @@ const About = () => {
                 <div className="text-center space-y-3">
                   <h3 className="text-2xl font-bold">Engineering Team</h3>
                   <a
-                    href="https://mglobalbusinessconsultancy.com"
+                    href="https://mglobalbusinessconsultancy.netlify.app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-medium text-lg"

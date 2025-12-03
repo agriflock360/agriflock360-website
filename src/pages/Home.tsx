@@ -98,16 +98,16 @@ const features = [
 
 const faqs = [
   {
-    question: "What is AgriFlock360?",
-    answer: "AgriFlock360 is a mobile and web-based platform that uses AI, IoT, and data analytics to help poultry farmers manage their flocks, access credit, insurance, inputs, and markets, all in one place."
+    question: "What is AgriFlock 360?",
+    answer: "AgriFlock 360 is a mobile and web-based platform that uses AI, IoT, and data analytics to help poultry farmers manage their flocks, access credit, insurance, inputs, and markets, all in one place."
   },
   {
-    question: "Who can use AgriFlock360?",
+    question: "Who can use AgriFlock 360?",
     answer: "Any poultry farmer, from smallholder to mid-scale, can use the platform to improve productivity and profitability. It is currently being deployed across Kenya & the US. Extension officers to help them diagnose better and provide vaccination services. Poultry vendors and off-takers to access the farmers and buy grown chicken and eggs. Input providers to distribute and sell inputs."
   },
   {
     question: "How do I register as a farmer?",
-    answer: "Download the AgriFlock360 app from the Google Play Store & App Store or visit our website. Create an account and follow the prompts to register your farm."
+    answer: "Download the AgriFlock 360 app from the Google Play Store & App Store or visit our website. Create an account and follow the prompts to register your farm."
   },
   {
     question: "Is the platform free to use?",
@@ -118,7 +118,7 @@ const faqs = [
     answer: "The platform offers tools for precision feeding, disease detection, vaccination reminders, performance tracking, and more—all powered by AI."
   },
   {
-    question: "How does AgriFlock360 support sustainable farming?",
+    question: "How does AgriFlock 360 support sustainable farming?",
     answer: "We encourage climate-smart practices like composting, solar brooders, and biogas use, and we are working toward helping farmers earn from carbon credits."
   },
   {
@@ -134,7 +134,7 @@ const faqs = [
     answer: "Yes. The e-commerce module connects farmers with verified buyers, helping them access better prices and wider markets."
   },
   {
-    question: "Is my data safe on AgriFlock360?",
+    question: "Is my data safe on AgriFlock 360?",
     answer: "Absolutely. We use end-to-end encryption and follow data protection regulations to keep farmer data secure."
   }
 ];
@@ -231,7 +231,7 @@ const Home = () => {
             <div className="text-center mb-8 sm:mb-12 md:mb-16 space-y-3 sm:space-y-4 animate-fade-in">
               <Badge className="mb-2 sm:mb-4 text-xs sm:text-sm px-3 sm:px-4 py-1 sm:py-1.5">Platform Overview</Badge>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gradient px-4">
-                What is AgriFlock360?
+                What is AgriFlock 360?
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
                 An end-to-end smart farming solution that transforms traditional poultry farming into a data-driven, efficient operation with cutting-edge technology and AI-powered insights.
@@ -260,7 +260,7 @@ const Home = () => {
               {/* Content */}
               <div className="space-y-6 sm:space-y-8 animate-fade-in order-2">
                 <p className="text-base sm:text-lg md:text-xl text-foreground leading-relaxed">
-                  AgriFlock360 helps smallholder farmers reduce flock mortality, increase efficiencies and profit through sustainable practices.
+                  AgriFlock 360 helps smallholder farmers reduce flock mortality, increase efficiencies and profit through sustainable practices.
                 </p>
 
                 <div className="space-y-3 sm:space-y-4 md:space-y-5">
@@ -423,7 +423,7 @@ const Home = () => {
               </h2>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Every farmer has a story. AgriFlock360 is more than technology—it's about preserving livelihoods, feeding communities, and creating opportunities for smallholder farmers and their families.
+                Every farmer has a story. AgriFlock 360 is more than technology—it's about preserving livelihoods, feeding communities, and creating opportunities for smallholder farmers and their families.
               </p>
 
               <div className="space-y-4">
@@ -519,7 +519,7 @@ const Home = () => {
                 Frequently Asked <span className="text-gradient">Questions</span>
               </h2>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                Everything you need to know about AgriFlock360
+                Everything you need to know about AgriFlock 360
               </p>
             </div>
 
@@ -559,7 +559,7 @@ const Home = () => {
             Ready to Transform Your Farm?
           </h2>
           <p className="text-xl text-white/80 max-w-2xl mx-auto">
-            Join the digital agriculture revolution with AgriFlock360's complete IoT ecosystem
+            Join the digital agriculture revolution with AgriFlock 360's complete IoT ecosystem
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button variant="accent" size="lg" asChild>
