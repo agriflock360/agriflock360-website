@@ -166,12 +166,12 @@ const Home = () => {
               </span>
             </div>
             
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight drop-shadow-lg [text-shadow:_0_2px_10px_rgb(0_0_0_/_40%)]">
               Regenerative Poultry Farming{" "}
               <span className="text-gradient">With AI Precision</span>
             </h1>
             
-            <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-2xl">
+            <p className="text-lg sm:text-xl md:text-2xl text-foreground/90 max-w-2xl drop-shadow-md [text-shadow:_0_1px_8px_rgb(0_0_0_/_30%)]">
               Transforming poultry operations with IoT-integrated smart solar brooders, AI analytics, integrated productivity tools and farm to fork blockchain traceability.
             </p>
 
@@ -191,16 +191,16 @@ const Home = () => {
 
             <div className="grid grid-cols-3 gap-4 sm:flex sm:flex-wrap sm:gap-8 pt-8">
               <div className="space-y-1">
-                <div className="text-3xl sm:text-4xl font-bold text-gradient">100+</div>
-                <div className="text-xs sm:text-sm text-muted-foreground">Birds Capacity</div>
+                <div className="text-3xl sm:text-4xl font-bold text-gradient drop-shadow-lg">100+</div>
+                <div className="text-xs sm:text-sm text-foreground/80 drop-shadow-md">Birds Capacity</div>
               </div>
               <div className="space-y-1">
-                <div className="text-3xl sm:text-4xl font-bold text-gradient-accent">100%</div>
-                <div className="text-xs sm:text-sm text-muted-foreground">Solar Powered</div>
+                <div className="text-3xl sm:text-4xl font-bold text-gradient-accent drop-shadow-lg">100%</div>
+                <div className="text-xs sm:text-sm text-foreground/80 drop-shadow-md">Solar Powered</div>
               </div>
               <div className="space-y-1">
-                <div className="text-3xl sm:text-4xl font-bold text-gradient">24/7</div>
-                <div className="text-xs sm:text-sm text-muted-foreground">IoT Monitoring</div>
+                <div className="text-3xl sm:text-4xl font-bold text-gradient drop-shadow-lg">24/7</div>
+                <div className="text-xs sm:text-sm text-foreground/80 drop-shadow-md">IoT Monitoring</div>
               </div>
             </div>
           </div>
