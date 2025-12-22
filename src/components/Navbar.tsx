@@ -8,7 +8,7 @@ import {
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
 import { Menu, X, ChevronDown, Activity, Sprout, Zap, BarChart3, AlertTriangle, TrendingUp, ShoppingBag, GitBranch, GraduationCap, Smartphone, Monitor } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import agriflockLogo from "@/assets/agriflock-logo-new.png";
 
 const navigation = [
@@ -70,10 +70,28 @@ const services = [
 
 export const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Close mobile menu on route change
+  useEffect(() => {
+    setMobileMenuOpen(false);
+  }, [location.pathname]);
+
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      scrolled 
+        ? "bg-background/95 backdrop-blur-xl border-b border-border shadow-lg" 
+        : "bg-background/80 backdrop-blur-lg border-b border-transparent"
+    }`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-3 shrink-0">
@@ -167,8 +185,10 @@ export const Navbar = () => {
         </div>
 
         {/* Mobile Navigation */}
-        {mobileMenuOpen && (
-          <div className="md:hidden py-4 animate-fade-in">
+        <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+          mobileMenuOpen ? "max-h-[80vh] opacity-100 py-4" : "max-h-0 opacity-0 py-0"
+        }`}>
+          <div className="space-y-1">
             {navigation.map((item) => (
               <Link
                 key={item.name}
@@ -231,7 +251,7 @@ export const Navbar = () => {
               </Button>
             </div>
           </div>
-        )}
+        </div>
       </div>
     </nav>
   );
