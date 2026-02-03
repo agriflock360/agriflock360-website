@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Link } from "react-router-dom";
 import { ArrowRight, Activity, Sprout, Zap, BarChart3, Shield, Clock, AlertTriangle, TrendingUp, ShoppingBag, GitBranch, GraduationCap, Heart, Smartphone, HelpCircle } from "lucide-react";
 import heroImage from "@/assets/chicks-hero-optimized.webp";
@@ -120,6 +121,35 @@ const faqs = [
     question: "Is my data safe on AgriFlock 360?",
     answer: "Absolutely. We use end-to-end encryption and follow data protection regulations to keep farmer data secure."
   }
+];
+
+const createGalleryItem = (filename: string, title: string) => ({
+  filename,
+  src: `/gallery/${encodeURIComponent(filename)}`,
+  alt: title,
+  caption: title,
+});
+
+const galleryImages = [
+  createGalleryItem("Brooder 1.jpeg", "Wiring and fan integration in progress."),
+  createGalleryItem("Brooder 2.jpeg", "Mesh floor and feeder fitting."),
+  createGalleryItem("Brooder 4.jpeg", "Interior layout with feeder and drinker zones."),
+  createGalleryItem("Brooder 5.jpeg", "Brooder enclosure shell assembled."),
+  createGalleryItem("Brooder 7.jpeg", "Chicken coop disposal tray in place."),
+  createGalleryItem("PCB Board 3D Side view.jpeg", "PCB board 3D side view."),
+  createGalleryItem("PCb Board top view.jpeg", "PCB board top view."),
+  createGalleryItem("WhatsApp Image 2026-02-02 at 10.56.34.jpeg", "Prototype enclosure prepared for internal hardware."),
+  createGalleryItem("WhatsApp Image 2026-02-02 at 10.56.54.jpeg", "Prototype enclosure housing."),
+  createGalleryItem("WhatsApp Image 2026-02-02 at 10.58.00.jpeg", "Display module for on-device monitoring."),
+  createGalleryItem("WhatsApp Image 2026-02-02 at 10.58.45.jpeg", "Antenna modules for connectivity testing."),
+  createGalleryItem("WhatsApp Image 2026-02-02 at 11.00.12.jpeg", "Environmental sensor probe and cabling set."),
+  createGalleryItem("WhatsApp Image 2026-02-02 at 11.02.17.jpeg", "Temperature and humidity sensors ready for integration."),
+  createGalleryItem("WhatsApp Image 2026-02-02 at 11.07.54.jpeg", "Physical control buttons and switches."),
+  createGalleryItem("WhatsApp Image 2026-02-02 at 11.08.22.jpeg", "Cable glands for sealed enclosures."),
+  createGalleryItem("WhatsApp Image 2026-02-02 at 11.10.05.jpeg", "Control board components staged for assembly."),
+  createGalleryItem("WhatsApp Image 2026-02-02 at 11.10.28.jpeg", "Custom PCB with Agriflock 360 branding."),
+  createGalleryItem("WhatsApp Image 2026-02-02 at 11.10.55.jpeg", "Alternate view of the branded PCB assembly."),
+  createGalleryItem("WhatsApp Image 2026-02-02 at 11.12.12.jpeg", "Controller board connected during testing."),
 ];
 
 const Home = () => {
@@ -376,6 +406,59 @@ const Home = () => {
               </Card>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Gallery Section */}
+      <section id="gallery" className="py-20 bg-background">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12 space-y-4">
+            <div className="inline-block">
+              <Badge className="text-sm px-4 py-1.5">Gallery</Badge>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold">
+              Work <span className="text-gradient">In Progress</span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              A look at our hardware builds, testing, and field-ready prototypes.
+            </p>
+          </div>
+
+          <div className="relative">
+            <Carousel
+              opts={{ align: "start", loop: true }}
+              className="w-full"
+            >
+              <CarouselContent className="-ml-2 md:-ml-4">
+                {galleryImages.map((image) => (
+                  <CarouselItem
+                    key={image.src}
+                    className="pl-2 md:pl-4 basis-full sm:basis-1/2 lg:basis-1/3"
+                  >
+                    <Card className="overflow-hidden border-2 border-primary/10 hover:border-primary/40 transition-colors">
+                      <div className="aspect-[3/4] bg-muted">
+                        <img
+                          src={image.src}
+                          alt={image.alt}
+                          className="h-full w-full object-cover"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div className="p-4">
+                        <p className="text-sm text-muted-foreground">{image.caption}</p>
+                      </div>
+                    </Card>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="hidden md:flex" />
+              <CarouselNext className="hidden md:flex" />
+            </Carousel>
+          </div>
+
+          <p className="text-center text-sm text-muted-foreground mt-6">
+            Swipe or use the arrows to explore the gallery.
+          </p>
         </div>
       </section>
 
