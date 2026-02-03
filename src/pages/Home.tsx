@@ -142,7 +142,7 @@ const galleryImages = [
   createGalleryItem("WhatsApp Image 2026-02-02 at 10.56.54.jpeg", "Prototype enclosure housing."),
   createGalleryItem("WhatsApp Image 2026-02-02 at 10.58.00.jpeg", "Display module for on-device monitoring."),
   createGalleryItem("WhatsApp Image 2026-02-02 at 10.58.45.jpeg", "Antenna modules for connectivity testing."),
-  createGalleryItem("WhatsApp Image 2026-02-02 at 11.00.12.jpeg", "Environmental sensor probe and cabling set."),
+  createGalleryItem("WhatsApp Image 2026-02-02 at 11.00.12.jpeg", "Water level sensor."),
   createGalleryItem("WhatsApp Image 2026-02-02 at 11.02.17.jpeg", "Temperature and humidity sensors ready for integration."),
   createGalleryItem("WhatsApp Image 2026-02-02 at 11.07.54.jpeg", "Physical control buttons and switches."),
   createGalleryItem("WhatsApp Image 2026-02-02 at 11.08.22.jpeg", "Cable glands for sealed enclosures."),
