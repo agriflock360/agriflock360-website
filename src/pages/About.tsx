@@ -180,14 +180,28 @@ const About = () => {
         }`}
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16 space-y-4">
+          <div className="text-center mb-12 space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
               Meet Our <span className="text-gradient">Team</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              A diverse group of technologists, agriculturalists, sustainable business leadersand entrepreneurs 
+              A diverse group of technologists, agriculturalists, sustainable business leaders and entrepreneurs 
               passionate about transforming smallholder farming.
             </p>
+          </div>
+          
+          {/* Team Video */}
+          <div className="max-w-4xl mx-auto mb-16">
+            <Card className="overflow-hidden border-2 border-primary/20">
+              <video
+                className="w-full aspect-video"
+                controls
+                poster="/og-image.png"
+              >
+                <source src="/AgriFlock360 Video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </Card>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
