@@ -148,7 +148,6 @@ const galleryImages = [
   createGalleryItem("WhatsApp Image 2026-02-02 at 11.08.22.jpeg", "Cable glands for sealed enclosures."),
   createGalleryItem("WhatsApp Image 2026-02-02 at 11.10.05.jpeg", "Control board components staged for assembly."),
   createGalleryItem("WhatsApp Image 2026-02-02 at 11.10.28.jpeg", "Custom PCB with Agriflock 360 branding."),
-  createGalleryItem("WhatsApp Image 2026-02-02 at 11.10.55.jpeg", "Alternate view of the branded PCB assembly."),
   createGalleryItem("WhatsApp Image 2026-02-02 at 11.12.12.jpeg", "Controller board connected during testing."),
 ];
 
