@@ -55,7 +55,7 @@ const team = [
 const engineeringTeam = [
   {
     name: "Mititi Isaac",
-    position: "Frontend & Lead Engineer",
+    position: "Lead Engineer",
     image: mititiPhoto,
     linkedin: "https://www.linkedin.com/in/io-mititi/",
   },
