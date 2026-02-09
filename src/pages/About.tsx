@@ -17,7 +17,7 @@ import hemstonePhoto from "@/assets/hemstone-alumasa.jpg";
 const team = [
   {
     name: "Peter Davis Krahenbuhl",
-    position: "Co-founder & CEO",
+    position: "Co-founder & Chief Advisor",
     image: peterPhoto,
     linkedin: "https://www.linkedin.com/in/peterkrahenbuhl/",
     bio: "Mission-driven business, sustainability and communications leader with decades of experience guiding business, government and NGOs in global climate, equity, and impact ventures. Co-founder and former President of Sustainable Travel International and advisor to multiple ESG, sustainability and business orgs. At AgriFlock 360, Peter leads strategic growth, partnerships, and sustainably-aligned business development, positioning the company at the intersection of regenerative agriculture, fintech, and carbon innovation.",
