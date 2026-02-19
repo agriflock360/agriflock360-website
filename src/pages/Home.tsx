@@ -131,10 +131,6 @@ const createGalleryItem = (filename: string, title: string) => ({
 });
 
 const galleryImages = [
-  createGalleryItem("Brooder 1.jpeg", "Wiring and fan integration in progress."),
-  createGalleryItem("Brooder 2.jpeg", "Mesh floor and feeder fitting."),
-  createGalleryItem("Brooder 4.jpeg", "Interior layout with feeder and drinker zones."),
-  createGalleryItem("Brooder 5.jpeg", "Brooder enclosure shell assembled."),
   createGalleryItem("Brooder 7.jpeg", "Chicken coop disposal tray in place."),
   createGalleryItem("PCB Board 3D Side view.jpeg", "PCB board 3D side view."),
   createGalleryItem("PCb Board top view.jpeg", "PCB board top view."),
