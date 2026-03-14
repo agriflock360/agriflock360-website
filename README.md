@@ -2,7 +2,7 @@
 
 ## Project info
 
-Marketing website for Agriflock360, built with Vite, React, TypeScript, and Tailwind CSS.
+Marketing website for Agriflock360, built with Vite, React, TypeScript, shadcn/ui and Tailwind CSS.
 
 ## Local development
 
