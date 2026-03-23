@@ -40,7 +40,7 @@ const team = [
     position: "Marketing Director",
     image: "/Jacqueline Maganga - AgriFlock 360.png",
     linkedin: "https://www.linkedin.com/in/jacqueline-maganga-05a04391/",
-    bio: "360 marketing leader with 10+ years of experience driving brand growth across digital, ATL, and BTL channels. Jacqueline has led high-impact multi-channel campaigns for brands including NCBA Bank, KFC, DTB, Nivea East Africa, Uber Eats, and Bamburi Cement, and brings strong expertise in acquisition strategy, team leadership, and data-driven campaign optimisation.",
+    bio: "With over a decade driving customer acquisition across fintech, FMCG, and digital strategy, including growth roles at Numida (YC W22) and high-profile campaigns for KFC, NCBA Bank, Uber Eats, and Nivea East Africa, Jacqueline brings the CAC management discipline and channel expertise that AgriFlock 360 needs to scale farmer onboarding and activate its buyer network. She is the bridge between AgriFlock 360’s technology and the smallholder farmers, agrovets, and offtakers it exists to serve.",
   },
   {
     name: "James Obimbo",
