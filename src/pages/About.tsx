@@ -26,7 +26,7 @@ const team = [
     position: "Founder & CIO",
     image: abisaiPhoto,
     linkedin: "https://www.linkedin.com/in/abisai-nandi-443405145/",
-    bio: "Agritech entrepreneur with 10+ years of experience working alongside 10,000+ smallholder poultry farmers across Africa. As the visionary behind AgriFlock 360, Abisai brings deep market insight and a farmer-first approach to product design. He leads innovation across AI, regenerative agriculture, and carbon credit readiness, ensuring AgriFlock 360 delivers scalable, tech-enabled solutions to the communities that need them most.",
+    bio: "Agritech entrepreneur with 10+ years of experience working alongside 10,000+ smallholder poultry farmers across Africa.Built 1M$ company from scratch. As the visionary behind AgriFlock 360, Abisai brings deep market insight and a farmer-first approach to product design. He leads innovation across AI, regenerative agriculture, and carbon credit readiness, ensuring AgriFlock 360 delivers scalable, tech-enabled solutions to the communities that need them most.",
   },
   // {
   //   name: "Chris Moore",
