@@ -246,7 +246,7 @@ const PrivacyPolicy = () => {
             <p className="text-muted-foreground">For questions or concerns:</p>
             <p className="text-muted-foreground mt-2">
               <strong>AgriFlock 360</strong><br />
-              Email: <a href="mailto:admin@agriflock360.com" className="text-primary hover:text-primary/80 transition-colors">admin@agriflock360.com</a>
+              Email: <a href="mailto:support@agriflock360.com" className="text-primary hover:text-primary/80 transition-colors">support@agriflock360.com</a>
               <br />
               Kenya: +254 729 554 434
               <br />

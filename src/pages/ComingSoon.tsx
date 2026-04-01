@@ -81,9 +81,9 @@ export default function ComingSoon() {
               Want to be notified when we launch?
             </p>
             <Button variant="ghost" size="sm" asChild>
-              <a href="mailto:admin@agriflock360.com" className="inline-flex items-center">
+              <a href="mailto:support@agriflock360.com" className="inline-flex items-center">
                 <Mail className="mr-2 h-4 w-4" />
-                Contact us at admin@agriflock360.com
+                Contact us at support@agriflock360.com
               </a>
             </Button>
           </div>
